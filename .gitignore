@@ -1,0 +1,8 @@
+# Create a basic gitignore for Python and .NET
+@"
+.venv/
+bin/
+obj/
+.env
+*.usersecrets
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
